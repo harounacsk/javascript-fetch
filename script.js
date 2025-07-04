@@ -29,7 +29,7 @@ postJson = async (formData) => {
 		method: "POST",
 		body: formData
 	}).then(res => res.json())
-		.then(data => console.log(data.toString()))
+		.then(data => console.log(data))
 }
 
 addOptionToSelect = (select, data) => {
